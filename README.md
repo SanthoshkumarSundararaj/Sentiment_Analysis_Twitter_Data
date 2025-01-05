@@ -17,11 +17,11 @@ This project is focused on analyzing the sentiment of Twitter data using machine
 
 ```plaintext
 Sentiment_Analysis_Twitter_Data/
-├── train.csv             # Raw and cleaned datasets
-├── .ipynb/            # Jupyter notebooks for exploratory analysis and model development
-├── src/                  # Source code for preprocessing, modeling, and evaluation
-├── results/              # Model evaluation results and visualizations
-└── README.md             # Project documentation
+├── train.csv                                   # Raw and cleaned datasets
+├── Sentiment_Analysis_Twitter.ipynb            # Jupyter notebooks for exploratory analysis and model development
+├── Sentiment_Analysis_Twitter.ipynb            # Source code for preprocessing, modeling, and evaluation
+├── results/                                    # Model evaluation results and visualizations
+└── README.md                                   # Project documentation
 ```
 
 ---
@@ -30,15 +30,11 @@ Sentiment_Analysis_Twitter_Data/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Sentiment_Analysis_Twitter_Data.git
+   git clone https://github.com/SanthoshkumarSundararaj/Sentiment_Analysis_Twitter_Data.git
    ```
 2. Navigate to the project directory:
    ```bash
    cd Sentiment_Analysis_Twitter_Data
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ---
@@ -61,22 +57,8 @@ graph TD
 
 ## 🖥️ Usage
 
-1. Preprocess the data:
-   ```bash
-   python src/preprocess.py
-   ```
-2. Train the model:
-   ```bash
-   python src/train.py
-   ```
-3. Evaluate the model:
-   ```bash
-   python src/evaluate.py
-   ```
-4. Visualize the results:
-   ```bash
-   python src/visualize.py
-   ```
+1. Run the jupyter cells one by one in the file Sentiment_Analysis_Twitter.ipynb
+
 
 ---
 
@@ -85,12 +67,6 @@ graph TD
 - Sentiment distribution of tweets.
 - Performance metrics of each machine learning model.
 - Confusion matrices for better insights.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
