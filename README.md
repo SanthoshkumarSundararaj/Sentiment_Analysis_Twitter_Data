@@ -17,11 +17,10 @@ This project is focused on analyzing the sentiment of Twitter data using machine
 
 ```plaintext
 Sentiment_Analysis_Twitter_Data/
-├── data/                 # Raw and cleaned datasets
-├── notebooks/            # Jupyter notebooks for exploratory analysis and model development
+├── train.csv             # Raw and cleaned datasets
+├── .ipynb/            # Jupyter notebooks for exploratory analysis and model development
 ├── src/                  # Source code for preprocessing, modeling, and evaluation
 ├── results/              # Model evaluation results and visualizations
-├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 ```
 
